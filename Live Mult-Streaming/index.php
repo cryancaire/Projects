@@ -17,8 +17,8 @@ extract($_SERVER);
 extract($_SESSION);
 
 if (!$group) {
+  //modify this -- put whatever Twitch usernames you want here.
   $channels="cryancaire,huevos74,sobuto,chuckdatruc7";
-  $chat = "cryancaire";
 }
 if (!$h) {
   $h = "400";
