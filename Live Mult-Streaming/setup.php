@@ -11,7 +11,7 @@
   <script>
   $(document).ready(function(){
       $( "#clickButton" ).click(function() {
-        var theURL = "http://coreycaire.com/livestream/?group=custom&channels="+$('#streams').val()+"&h="+$('#sHeight').val()+"&w="+$('#sWidth').val();
+        var theURL = "/livestream/index.php?group=custom&channels="+$('#streams').val()+"&h="+$('#sHeight').val()+"&w="+$('#sWidth').val();
         $("#resPan").html("<input type=text value="+theURL+" size=100>");
         window.open(theURL);
       })
